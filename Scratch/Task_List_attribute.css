@@ -1,0 +1,20 @@
+/* Template to test different hex colors with opacity */
+
+.color-sample {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.color1 {
+    background-color: #FF487B6F;
+    background-color: #FFD39B36;
+    background-color: #FFFF5E5B;
+}
+
+.color2 {
+    background-color: #FF556B49;
+    background-color: #FF4ACCCD;
+    background-color: #FFDA3287;
+}
