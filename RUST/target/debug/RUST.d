@@ -1,1 +1,1 @@
-D:\Code\CodeNomad\RUST\target\debug\RUST.exe: D:\Code\CodeNomad\RUST\src\main.rs
+D:\SelfRepoClone\CodeNomad\RUST\target\debug\RUST.exe: D:\SelfRepoClone\CodeNomad\RUST\src\main.rs
