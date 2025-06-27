@@ -1,20 +1,12 @@
-struct User {
-    active: bool,
-    username: String,
-    email: String,
-    sign_in_count: u64,
+enum Message {
+    Quit,
+    Move {x: i32, y: i32 },
+    Write(String),
+    ChangeColor(i32, i32, i32),
 }
 
 fn main() {
-    let mut user1 = User {
-        email: String::from("someone@example.com"),
-        username: String::from("someusername123"),
-        active: true,
-        sign_in_count: 1,
-    };
-    
-    user1.sign_in_count += 1;
-    user1.email = String::from("anotheremail@example.com");
-    
-    println!("User {}'s new email is {}", user1.username, user1.email);
+    let msg1 = Message::Move {x: 10, y: 20};
+    let msg2 = Message::Write(String::from("hello"));
+    let msg3 = Message::Quit;
 }
